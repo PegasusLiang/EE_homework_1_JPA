@@ -108,3 +108,23 @@ Gym跟User的数据展示，其中用户跟场馆是多对一的关系。
 发现在通过地址查询测试时，第二次后在后台不会再调用sql语句
 
 ![1556507458931](https://github.com/PegasusLiang/EE_homework_1_JPA/blob/master/%E4%BD%9C%E4%B8%9A%E6%88%AA%E5%9B%BE/1556507458931.png)
+
+
+### Auditing
+
+Auditing 为表创建时间，更新时间配置自动生成
+为两表添加了createTime跟updateTime字段
+
+![1556584355023](https://github.com/PegasusLiang/EE_homework_1_JPA/blob/master/%E4%BD%9C%E4%B8%9A%E6%88%AA%E5%9B%BE/1556584355023.png)
+
+![1556584374883](https://github.com/PegasusLiang/EE_homework_1_JPA/blob/master/%E4%BD%9C%E4%B8%9A%E6%88%AA%E5%9B%BE/1556584374883.png)
+
+
+
+然后在启动类里加上注解
+
+```java
+@EnableJpaAuditing
+```
+
+![1556584524246](https://github.com/PegasusLiang/EE_homework_1_JPA/blob/master/%E4%BD%9C%E4%B8%9A%E6%88%AA%E5%9B%BE/1556584524246.png)
