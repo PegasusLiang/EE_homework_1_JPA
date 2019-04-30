@@ -14,7 +14,7 @@
 
 ### 注册登录
 
-![1556506128732](C:\Users\HP\AppData\Roaming\Typora\typora-user-images\1556506128732.png)
+![1556506128732](http://github.com/yourname/your-repository/raw/master/作业截图/1556506128732.png)
 
 ![1556506151019](C:\Users\HP\AppData\Roaming\Typora\typora-user-images\1556506151019.png)
 
