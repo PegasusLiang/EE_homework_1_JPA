@@ -14,13 +14,13 @@
 
 ### 注册登录
 
-![1556506128732](http://github.com/yourname/your-repository/raw/master/作业截图/1556506128732.png)
+![1556506128732](http://github.com/PegasusLiang/EE_homework_1_JPA/raw/master/作业截图/1556506128732.png)
 
-![1556506151019](C:\Users\HP\AppData\Roaming\Typora\typora-user-images\1556506151019.png)
+![1556506151019](http://github.com/PegasusLiang/EE_homework_1_JPA/raw/master/作业截图/1556506151019.png)
 
 登录信息的验证通过重现JPA的方法，findByUsernameAndPassword
 
-![1556506976017](C:\Users\HP\AppData\Roaming\Typora\typora-user-images\1556506976017.png)
+![1556506976017](http://github.com/PegasusLiang/EE_homework_1_JPA/raw/master/作业截图/1556506976017.png)
 
 
 
