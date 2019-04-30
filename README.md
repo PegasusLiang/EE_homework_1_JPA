@@ -15,6 +15,7 @@
 
 前端的展示我用了thymeleaf来映射数据。
 
+
 ### 注册登录
 
 ![1556506128732](https://github.com/PegasusLiang/EE_homework_1_JPA/blob/master/%E4%BD%9C%E4%B8%9A%E6%88%AA%E5%9B%BE/1556506128732.png)
@@ -33,19 +34,24 @@
 
 ![1556506198204](https://github.com/PegasusLiang/EE_homework_1_JPA/blob/master/%E4%BD%9C%E4%B8%9A%E6%88%AA%E5%9B%BE/1556506198204.png)
 
+
 Gym跟User的数据展示，其中用户跟场馆是多对一的关系。
 
 一端(UserEntity)使用@OneToMany,多端(Gym)使用@ManyToOne。关系由Gym场馆维护
 
+
 ![1556506371299](https://github.com/PegasusLiang/EE_homework_1_JPA/blob/master/%E4%BD%9C%E4%B8%9A%E6%88%AA%E5%9B%BE/1556506371299.png)
+
 
 使用@ManyToOne和@JoinColumn来注释属性,ManyToOne即表示此UserEntity为多端，@JoinColumn设置在gym表中的关联外键。
 
 ![1556506509999](https://github.com/PegasusLiang/EE_homework_1_JPA/blob/master/%E4%BD%9C%E4%B8%9A%E6%88%AA%E5%9B%BE/1556506509999.png)
 
+
 之前也尝试以多对多的关系来对应，也成功的对应上了。但是比较麻烦的是在前端上的展示，我对于thymeleaf是在不熟，网上例子也没改对。多对多关系需要建立中间表，通过jpa可以自动帮我们创建两表间的对应关系。
 
 ![1556506671279](https://github.com/PegasusLiang/EE_homework_1_JPA/blob/master/%E4%BD%9C%E4%B8%9A%E6%88%AA%E5%9B%BE/1556506671279.png)
+
 
 ### 数据查询
 
