@@ -14,6 +14,7 @@
 
 ### 注册登录
 
+![Image text](https://raw.github.com/PegasusLiang/EE_homework_1_JPA/master/EE_homework_1_JPA/作业截图/1556506128732.png)
 ![1556506128732](http://github.com/PegasusLiang/EE_homework_1_JPA/raw/master/作业截图/1556506128732.png)
 
 ![1556506151019](http://github.com/PegasusLiang/EE_homework_1_JPA/raw/master/作业截图/1556506151019.png)
